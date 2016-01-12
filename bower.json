@@ -1,0 +1,24 @@
+{
+  "name": "css-ghost-buttons",
+  "version": "0.0.1",
+  "homepage": "https://github.com/xremix/css-ghost-buttons",
+  "authors": [
+    "Toni Hoffmann <toni-hoffmann@xremix.de>"
+  ],
+  "description": "A collection of ghost buttons inspired by real-world examples",
+  "main": "dist/ghost-buttons.css",
+  "keywords": [
+    "ghost",
+    "buttons",
+    "css",
+    "button"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
