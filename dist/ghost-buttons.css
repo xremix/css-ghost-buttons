@@ -1,0 +1,136 @@
+.ghost-btn, .ghost-button, .ghost-button-rounded-corners, .ghost-button-transition, .ghost-button-semi-transparent, .ghost-button-border-color, .ghost-button-full-color {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none; }
+
+/*
+ * Basic Ghost Button
+ */
+.ghost-button {
+  border: 1px solid #fff; }
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000; }
+
+/*
+ * Rounded Corners
+ */
+.ghost-button-rounded-corners {
+  border: 1px solid #fff;
+  border-radius: 5px; }
+
+.ghost-button-rounded-corners:hover,
+.ghost-button-rounded-corners:active {
+  background-color: #fff;
+  color: #000; }
+
+/*
+ * Simple Transition Effect
+ */
+.ghost-button-transition {
+  border: 2px solid #fff;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+
+.ghost-button-transition:hover,
+.ghost-button-transition:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+
+/*
+ * Thick Border
+ */
+.ghost-button-thick-border {
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+  padding: 8px;
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+
+.ghost-button-thick-border:hover,
+.ghost-button-thick-border:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+
+/*
+ * Semi-Transparent Fade
+ */
+.ghost-button-semi-transparent {
+  border: 2px solid #fff;
+  transition: background-color 0.2s ease-out, border-color 0.2s ease-out; }
+
+.ghost-button-semi-transparent:hover,
+.ghost-button-semi-transparent:active {
+  background-color: #fff;
+  /* fallback */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff;
+  /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in, border-color 0.3s ease-in; }
+
+/*
+ * Border Color Fade
+ * Blue: #66d8ed
+ */
+.ghost-button-border-color {
+  border: 2px solid #fff;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out; }
+
+.ghost-button-border-color:hover,
+.ghost-button-border-color:active {
+  color: #66d8ed;
+  border-color: #66d8ed;
+  transition: border-color 0.4s ease-in, color 0.4s ease-in; }
+
+/*
+ * Full Color Fade
+ * Purple: #9363c4
+ */
+.ghost-button-full-color {
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out; }
+
+.ghost-button-full-color:hover,
+.ghost-button-full-color:active {
+  background-color: #9363c4;
+  border-color: #9363c4;
+  color: #fff;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }
+
+/*
+ * Size Transition Effect
+ */
+.ghost-button-size-transition {
+  display: inline-block;
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 auto;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: width 0.3s ease-out, height 0.3s ease-out, line-height 0.3s ease-out; }
+
+.ghost-button-size-transition:hover,
+.ghost-button-size-transition:active {
+  width: 220px;
+  height: 45px;
+  line-height: 45px;
+  transition: width 0.1s ease-in, height 0.1s ease-in, line-height 0.1s ease-in; }
