@@ -3,10 +3,10 @@
 A Port of ghost buttons, inspired by real-world examples. The source code is free and open source.  
 
 
-#Demo
+## Demo
 Please check out the original [Demo](http://cdn.sixrevisions.com/0468-01-css-ghost-buttons/index.html)
 
-# Usage
+## Usage
 
 Please check the documentation from [sixrevision](https://github.com/sixrevisions/css-ghost-buttons)
 
@@ -16,11 +16,25 @@ Usage is as simple as
 <a href="#" class="ghost-button ghost-button-semi-transparent">button</a>
 ```
 
-## Download 
+### Options
 
-Simply download the files from the `dist` folder and include them.
+You can use one of these CSS classes.
 
-## CDN
+| CSS Class        | Effect        |
+| ------------- |:-------------:|
+| ghost-button-rounded-corners  | hover, active |
+| ghost-button-transition  | hover, active |
+| ghost-button-thick-border  | hover, active |
+| ghost-button-semi-transparent  | hover, active |
+| ghost-button-border-color  | hover, active |
+| ghost-button-full-color  | hover, active |
+| ghost-button-size-transition  | hover, active |
+
+### Download 
+
+Simply download the files from the `/dist/` folder and include the `ghost-buttons.min.css` them into your code.
+
+### CDN
 
 The alternate way is to include it using the CDN
 
