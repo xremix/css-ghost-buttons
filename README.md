@@ -28,3 +28,4 @@ The alternate way is to include it using the CDN
 <link rel="stylesheet" href="https://cdn.rawgit.com/xremix/css-ghost-buttons/v0.0.1/dist/ghost-buttons.min.css">
 ```
 
+![Analytics](https://ga-beacon.appspot.com/UA-40522413-9/css-ghost-buttons/readme?pixel)
